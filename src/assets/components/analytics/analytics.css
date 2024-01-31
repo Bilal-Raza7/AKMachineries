@@ -1,0 +1,31 @@
+.outer-card-body{
+    margin-bottom: 4rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0px 12px 21px rgba(131, 131, 131, 0.605);
+    background-color: #3B4046;
+}
+.inner-card-body{
+    padding: 0 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.card-box h2{
+    font-family: 'Comfortaa', sans-serif;
+    text-align: center;
+    color: #F7C02D;
+}
+.card-box p{
+    font-family: 'Comfortaa', sans-serif;
+    text-align: center;
+    color: #ffff;
+}
+.card-box{
+    margin: 1rem;
+}
+@media screen and (max-width: 425px){
+    .inner-card-body{
+        padding: 0;
+        display: block;
+    }
+}

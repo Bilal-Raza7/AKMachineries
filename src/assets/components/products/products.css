@@ -1,0 +1,96 @@
+a{
+  text-decoration: none;
+}
+
+.Product-outer-container {
+  background-color: #f8f9fb;
+  /* background-color: #f8f9fb; */
+  /* margin-top: 5%; */
+  padding: 1rem;
+}
+.product-heading {
+  display: flex;
+  justify-content: center;
+  
+}
+.product-heading > h1 {
+  font-size: 18px;
+  font-family: "Comfortaa", sans-serif;
+}
+.inner-heading {
+  text-align: center;
+  font-family: "Comfortaa", sans-serif;
+}
+.product-heading > h1::after {
+  content: "";
+  width: 100%;
+  display: block;
+  border-bottom: 1px solid #f7c02d;
+}
+.card-outer {
+  margin: 5%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.prod-card-outer {
+  border: 1px solid rgba(204, 204, 204, 0.379);
+  transition: 0.3s all;
+}
+.prod-card-outer:hover {
+  box-shadow: 0px 0px 21px rgba(131, 131, 131, 0.497);
+  scale: 1.025;
+}
+.prod-card-img-outer {
+  height: 30vh;
+  margin: .5rem 0;
+  object-fit: contain;
+}
+.card-body{
+  background-color: #3B4046;
+  border-radius: 15px 15px 0 0;
+}
+.prod-card-btn {
+  background-color: #f7c02d;
+  transition: 0.5s ease;
+  border: none;
+}
+.prod-card-btn:hover {
+  background-color: transparent;
+  border: 1px solid #f7c02d;
+  scale: 0.9;
+}
+.prod-card-tittle {
+  font-family: "Comfortaa", sans-serif;
+  font-weight: bold;
+  color: #f7c02d;
+}
+.prod-card-text {
+  color: #fff;
+}
+.prod-card-btn:hover .call {
+  color: black;
+}
+.prod-card-btn:hover .prod-card-btn-icon {
+  color: black;
+}
+.prod-card-btn-icon {
+  color: white;
+  transition: 0.5s ease;
+}
+.call {
+  text-decoration: none;
+  color: white;
+  transition: 0.5s ease;
+}
+.outer-card {
+  margin: 10px 0;
+}
+@media screen and (max-width: 425px) {
+  .Product-outer-container {
+    padding: 0;
+  }
+  
+.col-12{
+  padding: 0;
+}
+}
