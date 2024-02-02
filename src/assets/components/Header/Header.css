@@ -44,6 +44,9 @@ ul {
   list-style: none;
   margin-right: 3rem;
 }
+.style-none{
+  list-style: none;
+}
 .nav-list > ul > li > a {
   color: white;
   background: transparent;

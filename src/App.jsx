@@ -13,6 +13,7 @@ import AirCompressor from "./assets/components/pages/AirCompressor";
 import Washer from "./assets/components/pages/Washer";
 import Agriculture from "./assets/components/pages/Agriculture";
 import ProdDetail from "./assets/components/products/ProdDetail";
+import Others from "./assets/components/pages/Others";
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
         <Route path="/compressor" element={<AirCompressor/>}/>
         <Route path="/washer" element={<Washer/>}/>
         <Route path="/agriculture" element={<Agriculture/>}/>
+        <Route path="/otherProducts" element={<Others/>}/>
         <Route path="/ProdDetails/:id" element={<ProdDetail/>}/>
         
       </Routes>

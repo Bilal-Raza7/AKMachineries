@@ -12,7 +12,7 @@ function ProdDetail() {
     <>
       <div className="container">
         <div className="row d-flex justify-content-between">
-          <div className="col-6">
+          <div className="col-md-6 col-sm-12">
             <img
               src={Product.image}
               className="object-fit-contain w-100"
@@ -20,7 +20,7 @@ function ProdDetail() {
             />
           </div>
           
-          <div className="col-6 my-3">
+          <div className="col-md-6 col-sm-12 my-3">
             <br />
             <h2 className="fs-1 my-3">{Product.name}</h2>
             <h5 className="fs-6 my-3 text-secondary">{Product.category}</h5>

@@ -14,15 +14,6 @@ function Navbar() {
                 Home
               </a>
             </li>
-            {/* <li>
-              <a href="#products">Products</a> */}
-            {/* <ul className="prod-list">
-                <li><a href="#Product1">Product 1</a></li>
-                <li><a href="#Product2">Product 2</a></li>
-                <li><a href="#Product3">Product 3</a></li>
-                <li><a href="#Product4">Product 4</a></li>
-              </ul> */}
-            {/* </li> */}
             <li className="nav-item dropdown" aria-labelledby="navbarScrollingDropdown">
               <a
                 // className="nav-link dropdown-toggle"
@@ -51,6 +42,11 @@ function Navbar() {
                   </a>
                 </li>
                 <li>
+                  <a className="dropdown-item" href="/otherProducts">
+                  Other Products
+                  </a>
+                </li>
+                <li>
                   <hr className="dropdown-divider" />
                 </li>
                 <li>
@@ -73,7 +69,54 @@ function Navbar() {
             </li>
           </ul>
           <p>
-            <IoMenu />
+            {/* <IoMenu /> */}
+            <li className="nav-item dropdown style-none" aria-labelledby="navbarScrollingDropdown">
+              <IoMenu 
+                // className="nav-link dropdown-toggle"
+                href="#"
+                id="navbarScrollingDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              />
+              <ul className="dropdown-menu">
+                <li>
+                <a href="/Home" className="dropdown-item">
+                Home
+              </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="/compressor">
+                    Air Compressor
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="/washer">
+                    Pressure Car Washer
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="/agriculture">
+                  Agricultural Solution
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="/otherProducts">
+                  Other Products
+                  </a>
+                </li>
+                <li>
+                  <hr className="dropdown-divider" />
+                </li>
+                <li>
+                  {/* <Link > */}
+                  <a className="dropdown-item" href="/allProducts">
+                    All Products
+                  </a>
+                  {/* </Link> */}
+                </li>
+              </ul>
+            </li>
           </p>
         </div>
         <div className="nav-list2">

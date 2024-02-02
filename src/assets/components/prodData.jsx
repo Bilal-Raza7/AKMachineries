@@ -1,4 +1,5 @@
 import comp1 from '../../images/compressor.png'
+import h50 from '../../images/h50lC.jpg'
 import comp2 from '../../images/compressor2.png'
 import comp3 from '../../images/elgicomp.png'
 import ESW from '../../images/everestSW.jpg'
@@ -19,7 +20,20 @@ import inflator from '../../images/inflator.png'
 import head from '../../images/1hp-head.jpg'
 import dphead from '../../images/dp-head.png'
 import dp2head from '../../images/dp-2-head.png'
-
+import jack from '../../images/jack.jpg'
+import foamT from '../../images/foamT.webp'
+import chainSaw from '../../images/chainsaw.webp'
+import bagC from '../../images/bagC.jpg'
+import concreatm from '../../images/conc.jpg'
+import tyreChanger from '../../images/tyreC.jpg'
+import tyreChangerM from '../../images/tyreCM.jfif'
+import acw from '../../images/AcW.jfif'
+import ImpacW from '../../images/imW16.jpg'
+import bikeL from '../../images/bikeL.jfif'
+import carL from '../../images/carL.jpg'
+import marbelP from '../../images/marbelP.jfif'
+import greaseB from '../../images/greaseB.jfif'
+import serviceGun from '../../images/serviceGun.png'
 
 
 export const PRODUCTS = [
@@ -143,6 +157,13 @@ export const PRODUCTS = [
         description: "High Quality Spray Gun for multiple work",
     },
     {
+        id:"36",
+        image: serviceGun,
+        name: "service Gun",
+        category:"other",
+        description: "High Quality Service Gun for multiple work",
+    },
+    {
         id:"18",
         image: inflator,
         name: "Tyre Inflator",
@@ -169,6 +190,104 @@ export const PRODUCTS = [
         name: "Compressor Head",
         category:"Compressor",
         description: "Double Piston Compressor Head",
+    },
+    {
+        id:"22",
+        image: h50,
+        name: "50 Liter Compressor",
+        category:"Compressor",
+        description: "Harrier 50 liter High Quality compressor ",
+    },
+    {
+        id:"23",
+        image: chainSaw,
+        name: "Heavy Duty Chainsaw Machine",
+        category:"other",
+        description: "Chainsaw heavy duty best machinery product",
+    },
+    {
+        id:"24",
+        image: jack,
+        name: "5 Ton Jack",
+        category:"other",
+        description: "Car lifting jack heavy duty machinery",
+    },
+    {
+        id:"25",
+        image: bagC,
+        name: "Bag Closser Machine",
+        category:"other",
+        description: "Bag Closser Heavy duty machine",
+    },
+    {
+        id:"26",
+        image: concreatm,
+        name: "Concreate Mixure Machine",
+        category:"other",
+        description: "Heavy Duty Concreate mixure machine",
+    },
+    {
+        id:"27",
+        image: tyreChanger,
+        name: "Tyre Changer Automatic",
+        category:"other",
+        description: "Heavy Duty car Tyre Changer",
+    },
+    {
+        id:"35",
+        image: tyreChangerM,
+        name: "Tyre Changer Manual",
+        category:"other",
+        description: "Heavy Duty car Tyre Changer",
+    },
+    {
+        id:"28",
+        image: acw,
+        name: "Ac Washer",
+        category:"washer",
+        description: "Heavy Duty AC Pressure Washer",
+    },
+    {
+        id:"29",
+        image: foamT,
+        name: "Foam Tank",
+        category:"other",
+        description: "Foam Tank for cleaning purpose",
+    },
+    {
+        id:"30",
+        image:ImpacW,
+        name: "Imapact Wrench",
+        category:"other",
+        description: "Impact wrinch for heavy work",
+    },
+    {
+        id:"31",
+        image:greaseB,
+        name: "Grease Bucket",
+        category:"other",
+        description: "Grease Bucket for greasing purpose",
+    },
+    {
+        id:"32",
+        image:bikeL,
+        name: "Bike Lift",
+        category:"other",
+        description: "Bike Lift/ramp for professional work",
+    },
+    {
+        id:"33",
+        image:carL,
+        name: "Car Lift",
+        category:"other",
+        description: "Car Lift/ramp for professional work",
+    },
+    {
+        id:"34",
+        image:marbelP,
+        name: "Marbel Polisher",
+        category:"other",
+        description: "Marbel Polisher for professional work",
     },
 ];
 
